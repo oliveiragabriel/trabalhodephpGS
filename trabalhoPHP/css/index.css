@@ -1,0 +1,86 @@
+body, html{
+	height: 100%;
+	margin: 0 auto;
+	background: url(../img/fundo.jpg)fixed no-repeat;
+	background-size: 100%;
+}
+.cad{
+	right: 100%;
+	border-radius:25px;
+	width: 100px;
+	padding: 5px;
+	background:rgba(0,0,0,0.5);
+	background-color: #00868B;
+	border:rgba(255,255,255,0.8) solid 1.5px;
+	top: 1%;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+.log{
+	position: absolute;
+	left:39%;
+	top:12%;
+	background: rgba(255,255,255,0.3);
+	width:340px;
+	height:400px;
+	text-align:center;
+	border-radius:10px;
+}
+.log:hover{
+	background: rgba(255,255,255,0.8);
+}
+.log:hover .box{
+	background-color:rgba(220,220,220,0.8);
+}
+#ent{
+	border-radius:25px;
+	width: 100px;
+	padding: 5px;
+	background:rgba(0,0,0,0.5);
+	background-color: #00868B;
+	border:rgba(255,255,255,0.8) solid 1.5px;
+	color: #FFF;
+}
+.box{
+	background-color:rgba(255,250,250,0.8);
+	border:none;
+}
+img{
+	width:250px;
+	margin-top: 10px;
+}
+.logo{
+	width: 180px;
+}
+.caixa{
+	position: absolute;
+	left: 30%;
+	top:10%;
+	background: rgba(255,255,255,0.3);
+	width:600px;
+	height:470px;
+	text-align:center;
+	border-radius:10px;
+}
+.caixa:hover{
+	background: rgba(255,255,255,0.8);
+}
+.caixa:hover .box{
+	background-color:rgba(220,220,220,0.8);
+}
+form{
+	font-family: 'Dosis', sans-serif;
+}
+.title{
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: 2px 2px 2px gray;
+	color: #00868B;
+}
+input{
+	border-radius: 10%;
+	padding: 5px;
+}

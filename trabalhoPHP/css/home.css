@@ -1,0 +1,28 @@
+body{
+	margin: 0 auto;
+}
+.social{
+	background: url(../dados/fundo.jpg) fixed no-repeat;
+	background-size:100% 30%;
+	top: 0;
+}
+img{
+	clip-path: circle(50% at 50% 50%);
+	top: 10px;
+	text-align: center ;
+}
+ul{
+	list-style: none;
+	position:absolute;
+}
+ul li{
+	padding:10px;
+}
+.post{
+	text-align:center;
+	position:absolute;
+	left:39%;
+}
+.prog{
+	display:inline;
+}
